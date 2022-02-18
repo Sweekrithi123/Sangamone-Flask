@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<h1 style="text-align: center;">Good Movies are</h1>
+	<ol style="font-size:20px">
+			{% for x in message1 %}
+			<li><a href="{{x}}" style="text-decoration: none;color: black;">{{x}}</a></li>
+			{% endfor %}
+	</ol>
+
+</body>
+</html>
