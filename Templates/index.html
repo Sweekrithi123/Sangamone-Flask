@@ -6,19 +6,20 @@
 	<title></title>
 	<style type="text/css">
 		h1{
-			color: indianred;
-			font-size: 30px;
+			color: blueviolet;
+			font-size: 25px;
 		}
-		pre{
-			color: blue;
+		h2{
+			color: skyblue;
 			font-size: 20px;
+
 		}
 	</style>
-	
 </head>
 <body>
-	<h1>Time and angle is:</h1>
-	<pre>{{message1}}</pre>
+	<h1>Home Page</h1>
+	<h2><a href={{url_for("helloworld")}}> Hello World</a><br></h2>
+	<h2><a href={{url_for("goodmorning")}}> Good Morning</a></h2>
 
 </body>
 </html>

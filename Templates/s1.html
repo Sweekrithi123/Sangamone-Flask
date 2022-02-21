@@ -3,22 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Unique word</title>
 	<style type="text/css">
 		h1{
-			color: indianred;
+			text-align: center;
+			color: darkred;
 			font-size: 30px;
 		}
-		pre{
-			color: blue;
+		ol{
+			margin-left: 50%;
+			color: green;
 			font-size: 20px;
+
 		}
 	</style>
-	
 </head>
 <body>
-	<h1>Time and angle is:</h1>
-	<pre>{{message1}}</pre>
+	<h1>Unique words are:</h1>
+	<ol>
+		{% for x in message1%}
+		<li>{{x}}</li>
+		{% endfor %}
+	</ol>
 
 </body>
 </html>
