@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<style type="text/css">
+		h1{
+			font-size: 30px;
+			color: gold;
+		}
+		label{
+			font-size: 25px;
+			color: tomato;
+		}
+		input[type=number]{
+			font-size: 15px;
+
+		}
+		button{
+			font-size: 20px;
+			color: grey;
+		}
+		h3{
+			font-size: 20px;
+			color: firebrick;
+		}
+	</style>
+</head>
+<body>
+	<form action="/" method="POST">
+		<h3>1.Addition</h3>
+		<h3>2.Subtraction</h3>
+		<h3>3.Multiplication</h3>
+		<h3>4.Division</h3>
+		<label>Enter your choice</label>
+		<input  type="number" id="choice" name="choice" placeholder="Enetr your choice."><br><br>
+		<label>Enter first number:</label>
+		<input  type="number" id="input1" name="input1" placeholder="Enetr 1st number"><br><br>
+		<label>Enter second number:</label>
+		<input  type="number" id="input2" name="input2" placeholder="Enetr 2nd number."><br><br>
+		<button type="submit">Submit</button>
+	</form>
+	<h1>Result is :{{message1}}</h1>
+
+</body>
+</html>
